@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>María Gentil</title>
+</head>
+
+<body>
+    <h1>Petición de Servicios</h1>
+    <form action="https://getform.io/f/aroxgvkb" method="post">
+        <fieldset>
+            <legend>CONTACTO</legend>
+            <label for=""></label>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder="">
+            <br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" placeholder="">
+            <br>
+            <label for="cargo">Cargo profesional:</label>
+            <input type="text" name="cargo" placeholder="">
+            <br>
+            <label for="contacto">Contacto:</label>
+            <input type="email" name="contacto" placeholder="hola@gmail.com">
+            <br>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" name="telefono" placeholder="+34 666 66 66 66">
+            <br>
+            <label for="empresa">Nombre de la empresa:</label>
+            <input type="text" name="empresa" placeholder="">
+            <br>
+            <label for="sector">Sector:</label>
+            <select name="sector" id="sector">
+                <option value="lifestyle">Lifestyle, moda y belleza</option>
+                <option value="hosteleria">Gastronomía y hostelería</option>
+                <option value="corporativo">Corporativo y servicios profesionales</option>
+                <option value="arte">Cultura, arte y entretenimiento</option>
+                <option value="e-commerce">E-commerce y retail</option>
+                <option value="administraciones">Institucional y social</option>
+                <option value="eventos">Eventos y producción</option>
+                <option value="otro" selected>Otro</option>
+            </select>
+            <br>
+            <label for="sitio-web">Sitio web:</label>
+            <input type="text" id="sitio-web" name="sitio-web" placeholder="www.empresa.com">
+        </fieldset>
+
+        <fieldset>
+            <legend>MARCA</legend>
+            <label for="comentario-1">¿A qué se dedica tu marca?</label>
+            <textarea id="comentario-1" name="comentario-1" placeholder="Escribe lo primero que se te ocurra..."
+                maxlength="200" required></textarea>
+            <br>
+            <label for="publico-objetivo">Público objetivo:</label>
+            <textarea id="publico-objetivo" name="publico-objetivo" placeholder="Edad, intereses, ubicación, ..."
+                maxlength="200" required></textarea>
+            <br>
+            <br>
+            <label for="color">Color corporativo:</label>
+            <input type="color" name="color" id="color">
+            <br>
+            <br>
+            <label for="rrss">¿En qué redes sociales tiene presencia tu marca?</label>
+            <br>
+            <input type="checkbox" name="Instagram" value="Instagram">Instagram
+            <input type="checkbox" name="TikTok" value="TikTok">TikTok
+            <input type="checkbox" name="Linkedin" value="Linkedin">Linkedin
+            <input type="checkbox" name="Pinterest" value="Pinterest">Pinterest
+            <input type="checkbox" name="YouTube" value="YouTube">YouTube
+            <input type="checkbox" name="Facebook" value="Facebook">Facebook
+            <br>
+            <br>
+            <label for="fichero">¿Posee manual de identidad visual su marca?</label>
+            <input type="file" name="fichero" id="fichero">
+            <br>
+            <br>
+            <label for="informacion-adicional-marca">Información adicional:</label>
+            <textarea id="informacion-adicional-marca" name="informacion-adicional-marca"
+                placeholder="¿Algo más que decir sobre la marca?"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>PROYECTO</legend>
+            <label for="objetivo">¿Cuál es el objetivo del proyecto?</label>
+            <br>
+            <input type="radio" name="objetivo">Branding
+            <br>
+            <input type="radio" name="objetivo">Rebranding
+            <br>
+            <input type="radio" name="objetivo">Nuevo lanzamiento de producto o servicio
+            <br>
+            <input type="radio" name="objetivo">Creación de contenido para RR.SS.
+            <br>
+            <input type="radio" name="objetivo">Mejora de la conversión para e-commerce
+            <br>
+            <input type="radio" name="objetivo">Comunicación corporativa
+            <br>
+            <input type="radio" name="objetivo">Documentación de eventos y experiencias
+            <br>
+            <input type="radio" name="objetivo">Storytelling Audiovisual
+            <br>
+            <input type="radio" name="objetivo">Producción de material editorial o digital
+            <br>
+            <input type="radio" name="objetivo">Storytelling Audiovisual
+            <br>
+            <input type="radio" name="objetivo">Otro
+            <br>
+            <br>
+            <label for="problema-resolver">¿Qué problema intentamos resolver?</label>
+            <input type="text" name="problema-resolver" id="problema-resolver"
+                placeholder="Ejemplo: Mi web se ve antigua">
+            <br>
+            <br>
+            <label for="servicio-contratar">¿Qué servicio se alinea más con tu idea?</label>
+            <select name="servicio-contratar" id="servicio-contratar">
+                <option value="fotografia">Fotografía</option>
+                <option value="audiovisual">Producción Audiovisual</option>
+                <option value="grafico">Diseño gráfico</option>
+            </select>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>INFORMACIÓN ADICIONAL</legend>
+            <label for="date">Fecha estimada para tener el proyecto finalizado:</label>
+            <input type="date" name="date" id="date">
+            <br>
+            <!-- el campo del "presupuesto" en realidad no lo pondría, pero era lo que se me ocurría para poder usar el input type="number"-->
+            <label for="presupuesto">Presupuesto máximo:</label>
+            <input type="number" id="presupuesto" min="100">
+            <br>
+            <label for="ruta-conocer">¿Cómo me has conocido?</label>
+            <select name="sector" id="ruta-conocer">
+                <option value="recomendacion">Recomendación</option>
+                <option value="contacto-comun">Contacto en común</option>
+                <option value="anuncio">Vi un anuncio</option>
+                <option value="redes">Redes Sociales</option>
+                <option value="otro">Otro</option>
+            </select>
+            <br>
+            <br>
+            <label for="comentarios-adicionales-informacion"></label>
+            <textarea name="comentarios-adicionales-informacion" id="comentarios-adicionales-informacion" rows="5"
+                cols="50" placeholder="¿Algo más que comentar?"></textarea>
+            <br>
+            <label for="politica-privacidad"></label>
+            <input type="checkbox" name="politica-privacidad" id="politica-privacidad" required>He leído, entiendo y
+            acepto la
+            <a href="politica.html">política de privacidad</a> conforme a la normativa vigente en protección de datos.
+        </fieldset>
+        <br>
+        <!-- no he conseguido enlazarlo con GetForm porque me daba error la aplicación, decía que ya había alcanzado el número máximo de formularios, pero me parece raro porque pone que se pueden tener hasta 25 y yo solo tengo 1... no pasa nada pero simplemente para que lo supieras -->
+        <fieldset>
+            <label for="enviar">Si los datos son correctos, pulse:</label>
+            <input type="submit" name="enviar" id="enviar">
+        </fieldset>
+    </form>
+</body>
+
+</html>
